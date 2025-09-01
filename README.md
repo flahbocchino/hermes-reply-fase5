@@ -54,10 +54,6 @@ README.md
 - `readings.sensor_id → sensors.sensor_id`
 - Índice temporal sugerido: `CREATE INDEX idx_readings_sensor_ts ON readings(sensor_id, ts DESC);`
 
-**DER (ilustrativo)**
-> Se existir a imagem exportada, ela aparecerá aqui:
-![DER](images/er_diagram.png)
-
 ---
 
 ## ⚙️ Como Reproduzir
@@ -161,6 +157,9 @@ ORDER BY n DESC;
 Thresholds e rótulos de manutenção foram simplificados para fins didáticos; em um cenário real, a definição deve ser suportada por engenharia de manutenção e/ou especialistas de domínio.
 
 O SQLite foi escolhido pela simplicidade e por atender bem ao fluxo do desafio; bancos relacionais “full” (PostgreSQL, Oracle) são facilmente suportados com o mesmo modelo lógico.
+
+---
+
 👩‍💻 Autoria
 - Flavia Bocchino (RM564213)  
 - Pedro Zani (RM564956)
