@@ -1,0 +1,4 @@
+sensor_id,machine_id,sensor_type,unit
+1000,10,Temperature,C
+2000,10,Pressure,bar
+3000,20,Vibration,mm_s
